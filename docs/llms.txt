@@ -1,0 +1,26 @@
+# TLDFYI Embed Widget
+
+> Embeddable TLDFYI widgets for any website. Zero dependencies, Shadow DOM isolation, 4 themes (light/dark/sepia/auto).
+
+## Quick Start
+
+Add to any HTML page:
+- Script: <script src="https://cdn.jsdelivr.net/npm/tldfyi-embed@1/dist/embed.min.js"></script>
+
+## Links
+
+- Main site: https://tldfyi.com
+- Widget docs: https://widget.tldfyi.com
+- npm: https://www.npmjs.com/package/tldfyi-embed
+- GitHub: https://github.com/fyipedia/tldfyi-embed
+- API: https://tldfyi.com/developers/
+
+## Network FYI Widget Family
+
+- [CableFYI Widget](https://widget.cablefyi.com)
+- [IPFYI Widget](https://widget.ipfyi.com)
+- [StatusCodeFYI Widget](https://widget.statuscodefyi.com)
+
+## Part of FYIPedia
+
+Open-source developer tools ecosystem — https://fyipedia.com
