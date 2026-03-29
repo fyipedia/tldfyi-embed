@@ -1,21 +1,45 @@
 # TLDFYI Embed Widget
 
-> Embeddable TLDFYI widgets for any website. Zero dependencies, Shadow DOM isolation, 4 themes (light/dark/sepia/auto).
+> TLD registry, domain extensions. Embeddable widgets for any website. Zero dependencies, Shadow DOM isolation.
 
 ## Quick Start
 
-Add to any HTML page:
-- Script: <script src="https://cdn.jsdelivr.net/npm/tldfyi-embed@1/dist/embed.min.js"></script>
+```html
+<script src="https://cdn.jsdelivr.net/npm/tldfyi-embed@1/dist/embed.min.js"></script>
+<div data-tldfyi="entity" data-slug="example"></div>
+```
+
+## Available Widget Types (0)
+
+- entity: `data-{slug}="entity"`
+
+## Customization
+
+- **Themes**: light, dark, sepia, auto (follows system preference)
+- **Sizes**: compact (280px), default (420px), large (720px)
+- **Styles**: modern, classic
+
+```html
+<div data-tldfyi="entity" data-slug="example"
+     data-theme="auto" data-size="compact" data-style-variant="modern"></div>
+```
+
+## Integration Methods
+
+1. **Script tag** (recommended): `<script src="https://cdn.jsdelivr.net/npm/tldfyi-embed@1/dist/embed.min.js"></script>`
+2. **iframe**: `https://tldfyi.com/iframe/entity/{slug}/`
+3. **oEmbed**: `https://tldfyi.com/oembed?url={page_url}&format=json`
+4. **Badge**: `https://tldfyi.com/badge/site.svg`
 
 ## Links
 
 - Main site: https://tldfyi.com
 - Widget docs: https://widget.tldfyi.com
-- npm: https://www.npmjs.com/package/tldfyi-embed
+- API documentation: https://tldfyi.com/developers/
+- npm package: https://www.npmjs.com/package/tldfyi-embed
 - GitHub: https://github.com/fyipedia/tldfyi-embed
-- API: https://tldfyi.com/developers/
 
-## Network FYI Widget Family
+## Network FYI Widget Network
 
 - [CableFYI Widget](https://widget.cablefyi.com)
 - [IPFYI Widget](https://widget.ipfyi.com)
