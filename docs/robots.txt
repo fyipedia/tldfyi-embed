@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# TLDFYI Embed Widget
+# Main site: https://tldfyi.com
+# Widget docs: https://widget.tldfyi.com
+# npm: https://www.npmjs.com/package/tldfyi-embed
