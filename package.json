@@ -1,0 +1,12 @@
+{
+  "name": "tldfyi-embed",
+  "version": "0.1.0",
+  "description": "TLDFYI embed widget — TLD Registry",
+  "main": "dist/embed.min.js",
+  "module": "dist/embed.esm.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "repository": "https://github.com/fyipedia/tldfyi-embed",
+  "homepage": "https://widget.tldfyi.com",
+  "keywords": ["embed", "widget", "tldfyi", "fyipedia"]
+}
